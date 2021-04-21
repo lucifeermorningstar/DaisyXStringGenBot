@@ -1,5 +1,5 @@
 
-
+from dyrogram import devil as app
 import asyncio
 from asyncio.exceptions import TimeoutError
 
