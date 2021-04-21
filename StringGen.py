@@ -11,7 +11,7 @@ from pyrogram.errors import (
     SessionPasswordNeeded,
 )
 
-from StringGen.dyrogram import devil as app
+from dyrogram import devil as app
 
 
 @app.on_message(filters.command("genstr") & filters.private)
@@ -113,7 +113,7 @@ from pyrogram.errors import (
     SessionPasswordNeeded,
 )
 
-from StringGen.dyrogram import devil as app
+from dyrogram import devil as app
 
 
 @app.on_message(filters.command("genstr") & filters.private)
@@ -206,7 +206,7 @@ async def genstr(_, message):
 from pyrogram import Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-from StringGen.filters import command, other_filters, other_filters2
+from filters import command, other_filters, other_filters2
 
 
 @Client.on_message(command("start") & other_filters2)
