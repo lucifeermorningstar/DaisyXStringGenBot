@@ -102,13 +102,6 @@ async def genstr(_, message):
         return
 
 
-_help = """
- * String Generator Generate Only Pyrogram String Session*
- ✪ /genstr : Type in Pm of bot to generate Pyrogram string session. 
-"""
-
-_mod_name_ = "String Generator
-
 import asyncio
 from asyncio.exceptions import TimeoutError
 
