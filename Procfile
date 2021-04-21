@@ -1,1 +1,1 @@
-worker: python3.8 StringGen.py
+worker: python3.8 StringGen
